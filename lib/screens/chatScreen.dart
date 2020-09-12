@@ -8,7 +8,7 @@ class ChatScreen extends StatelessWidget {
         itemCount: 10,
         itemBuilder: (ctx, index) => Container(
           padding: EdgeInsets.all(8),
-          child: Text('This works'),
+          child: Text('This working good'),
         ),
       ),
     );
