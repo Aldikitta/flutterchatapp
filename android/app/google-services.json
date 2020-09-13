@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "610521492276",
+    "firebase_url": "https://flutter-chat-aldi.firebaseio.com",
+    "project_id": "flutter-chat-aldi",
+    "storage_bucket": "flutter-chat-aldi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610521492276:android:e7d75809460b923d425361",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610521492276-evoh5hcrcsgpdqru7q9og6uv4tgsb45s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_y8GXyEe6gZif2Ji510lYuKNTkbMARug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610521492276-evoh5hcrcsgpdqru7q9og6uv4tgsb45s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
