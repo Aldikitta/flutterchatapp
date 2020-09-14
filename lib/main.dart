@@ -2,6 +2,7 @@ import 'package:chatapp/screens/authScrenn.dart';
 
 import './screens/chatScreen.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +27,15 @@ class MyApp extends StatelessWidget {
             )),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AuthScreen(),
+      home: StreamBuilder(
+        stream: FirebaseAuth.instance.onAuthStateChanged,
+        builder: (ctx, userSnapshot) {
+          if (userSnapshot.hasData) {
+            return ChatScreen();
+          }
+          return AuthScreen();
+        },
+      ),
     );
   }
 }
